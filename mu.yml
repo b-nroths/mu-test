@@ -2,9 +2,9 @@ environments:
 - name: acceptance
 - name: production
 service:
+  name: mu-test
   port: 80
   pathPatterns:
-    healthEndpoint: /
   - /*
   pipeline:
     source:
